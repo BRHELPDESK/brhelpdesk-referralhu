@@ -46,3 +46,71 @@ a href="https://taskbox.in/join/yourreferralid" target="_blank" style="display: 
 a href="https://refermate.com/yourreferralid" target="_blank" style="display: inline-block; background: #e91e63; color: #fff; padding: 12px 25px; margin: 10px; border-radius: 8px; text-decoration: none; font-weight: bold;">
   ReferMate App Join Now
 </a>
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BR Helpdesk Referral Hub</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f8f8f8;
+      padding: 40px;
+    }
+    img {
+      width: 250px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      color: #333;
+    }
+    p {
+      color: #666;
+    }
+    a.button {
+      display: inline-block;
+      padding: 12px 25px;
+      margin: 10px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #fff;
+    }
+    .roz { background: #ff5722; }
+    .frizza { background: #4caf50; }
+    .cashkaro { background: #2196f3; }
+    .taskbox { background: #9c27b0; }
+    .refermate { background: #f44336; }
+  </style>
+</head>
+<body>
+
+  <!-- Logo Image -->
+  <img src="logo.png" alt="BR Helpdesk Logo">
+
+  <!-- Heading and Text -->
+  <h1>Welcome to BR Helpdesk</h1>
+  <p>Your trusted referral hub for daily income & rewards.</p>
+
+  <!-- Referral Buttons -->
+  <div style="margin-top: 30px;">
+    <a href="https://roz.click/abcd1234" target="_blank" class="button roz">
+      Roz Dhan App Join Now
+    </a>
+    <a href="https://frizza.in/join/xyz5678" target="_blank" class="button frizza">
+      Frizza App Join Now
+    </a>
+    <a href="https://cashkaro.com/r=yourreferralid" target="_blank" class="button cashkaro">
+      CashKaro App Join Now
+    </a>
+    <a href="https://taskbox.in/join/yourreferralid" target="_blank" class="button taskbox">
+      TaskBox App Join Now
+    </a>
+    <a href="https://refermate.com/yourreferralid" target="_blank" class="button refermate">
+      ReferMate App Join Now
+    </a>
+  </div>
+
+</body>
+</html>
