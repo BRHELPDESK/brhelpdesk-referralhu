@@ -114,3 +114,73 @@ a href="https://refermate.com/yourreferralid" target="_blank" style="display: in
 
 </body>
 </html>
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BR Helpdesk Referral Hub</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f8f8f8;
+      padding: 40px;
+    }
+    img {
+      width: 220px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      color: #333;
+    }
+    p {
+      color: #555;
+    }
+    .referral-buttons {
+      margin-top: 30px;
+    }
+    .referral-buttons a {
+      display: inline-block;
+      background: #3f51b5;
+      color: #fff;
+      padding: 12px 25px;
+      margin: 10px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .referral-buttons a:hover {
+      background: #303f9f;
+    }
+    .footer {
+      margin-top: 50px;
+      color: #888;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Logo -->
+  <img src="logo.png" alt="BR Helpdesk Logo">
+
+  <!-- Heading -->
+  <h1>Welcome to BR Helpdesk Referral Hub</h1>
+  <p>Your trusted hub for daily income, rewards & referral apps.</p>
+
+  <!-- Referral Buttons -->
+  <div class="referral-buttons">
+    <a href="https://roz.click/abcd1234" target="_blank" style="background:#ff5722;">Roz Dhan App Join Now</a>
+    <a href="https://frizza.in/join/xyz5678" target="_blank" style="background:#4caf50;">Frizza App Join Now</a>
+    <a href="https://cashkaro.com/r=yourlink" target="_blank" style="background:#009688;">CashKaro App Join Now</a>
+    <a href="https://jupiter.money/r=yourlink" target="_blank" style="background:#9c27b0;">Jupiter Bank Offer</a>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    Powered by ChatGPT | BRHELPDESK | All rights reserved.
+  </div>
+
+</body>
+</html>
