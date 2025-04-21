@@ -1,0 +1,48 @@
+!-- register.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BRHELPDESK Registration</title>
+  <style>
+    body { font-family: Arial; background: #f2f2f2; text-align: center; padding: 40px; }
+    .form-box {
+      background: white; padding: 30px; border-radius: 12px; width: 90%; max-width: 400px; margin: auto; box-shadow: 0 0 12px rgba(0,0,0,0.2);
+    }
+    input, button {
+      width: 100%; padding: 12px; margin: 10px 0; border-radius: 8px; border: 1px solid #ccc;
+    }
+    button {
+      background: linear-gradient(45deg, red, orange, yellow, green, blue); color: white; font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-box">
+    <h2>Register to BRHELPDESK</h2>
+    <input type="text" id="name" placeholder="Full Name" required />
+    <input type="text" id="phone" placeholder="Phone Number" required />
+    <input type="text" id="referral" placeholder="Referral ID (Optional)" />
+    <input type="password" id="password" placeholder="Create Password" required />
+    <button onclick="register()">Register Now</button>
+    <p>Already have an account? <a href="login.html">Login</a></p>
+  </div>
+
+  <script>
+    function register() {
+      const name = document.getElementById('name').value;
+      const phone = document.getElementById('phone').value;
+      const referral = document.getElementById('referral').value;
+      const password = document.getElementById('password').value;
+
+      if (!name || !phone || !password) {
+        alert("Please fill all fields");
+        return;
+      }
+
+      // Firebase or localStorage insert logic here
+      alert("Registration successful!\nName: " + name + "\nPhone: " + phone);
+      window.location.href = "login.html"; // redirect to login page
+    }
+  </script>
+</body>
+</html>
