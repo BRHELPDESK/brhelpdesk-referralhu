@@ -1,23 +1,77 @@
 !DOCTYPE html>
-<html>
+<html lang="ml">
 <head>
-  <title>BR Helpdesk - Ranks</title>
   <meta charset="UTF-8">
+  <title>Ranks | BR Helpdesk</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f0f9ff;
+      padding: 20px;
+    }
+    .rank-box {
+      background: #ffffff;
+      padding: 25px;
+      border-radius: 10px;
+      max-width: 800px;
+      margin: auto;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #003366;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      padding: 12px;
+      border-bottom: 1px solid #ccc;
+      text-align: center;
+    }
+    th {
+      background-color: #cce5ff;
+    }
+  </style>
 </head>
-<body style="font-family: sans-serif; text-align: center; background-color: #f7f7f7; padding: 20px;">
-  <h1>BRHELPDESK Ranks</h1>
-  <p>നിങ്ങളുടെ Referral പ്രവർത്തനങ്ങൾ അനുസരിച്ച് നിങ്ങൾക്ക് താഴെപറയുന്ന Ranks ലഭിക്കും:</p>
-
-  <ul style="list-style-type: none; padding: 0;">
-    <li><strong>1. Foreman</strong> – 5 Referrals പൂർത്തിയാക്കുക</li>
-    <li><strong>2. Supervisor</strong> – 25 Referrals + Matching Income ₹250</li>
-    <li><strong>3. Manager</strong> – 100 Referrals + Matching ₹1000</li>
-    <li><strong>4. Director</strong> – 500 Referrals + Matching ₹5000</li>
-    <li><strong>5. CEO Rank</strong> – 1000+ Referrals + Income Unlimited</li>
-  </ul>
-
-  <p>പ്രതേകം കുറിപ്പ്: ഓരോ Rank-ലെയും Matching Income Threshold കഴിഞ്ഞാൽ നിങ്ങൾ അടുത്ത Rank-ലേക്ക് മുന്നേറും.</p>
-
-  <a href="index.html" style="display: inline-block; margin-top: 20px; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px;">Back to Home</a>
+<body>
+  <div class="rank-box">
+    <h1>BR Helpdesk Ranks</h1>
+    <table>
+      <tr>
+        <th>Rank</th>
+        <th>Referrals Needed</th>
+        <th>Matching Income Limit</th>
+      </tr>
+      <tr>
+        <td>Foreman</td>
+        <td>5</td>
+        <td>₹500/day</td>
+      </tr>
+      <tr>
+        <td>Supervisor</td>
+        <td>10</td>
+        <td>₹1000/day</td>
+      </tr>
+      <tr>
+        <td>Manager</td>
+        <td>20</td>
+        <td>₹2000/day</td>
+      </tr>
+      <tr>
+        <td>Director</td>
+        <td>40</td>
+        <td>₹4000/day</td>
+      </tr>
+      <tr>
+        <td>Leader</td>
+        <td>100+</td>
+        <td>₹6000/day</td>
+      </tr>
+    </table>
+    <p style="margin-top: 20px;">Ranks are awarded based on referral performance and team growth.</p>
+  </div>
 </body>
 </html>
