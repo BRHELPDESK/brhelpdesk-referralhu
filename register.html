@@ -1,17 +1,18 @@
 !DOCTYPE html>
-<html lang="ml">
+<html>
 <head>
-  <meta charset="UTF-8">
   <title>Register - BR Helpdesk</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body { font-family: sans-serif; padding: 20px; background: #eef; text-align: center; }
+    input, button { margin: 10px; padding: 10px; width: 80%; max-width: 300px; }
+  </style>
 </head>
 <body>
-  <h1>BR Helpdesk Register</h1>
-  <p>ഈ ഫോം പൂരിപ്പിച്ച് നിങ്ങളുടെ രജിസ്ട്രേഷൻ പൂർത്തിയാക്കുക:</p>
-  <form action="submit-form.php" method="POST">
-    <input type="text" name="name" placeholder="പേര്" required><br>
-    <input type="text" name="phone" placeholder="ഫോൺ നമ്പർ" required><br>
-    <input type="email" name="email" placeholder="ഇമെയിൽ" required><br>
-    <button type="submit">Register Now</button>
-  </form>
+  <h2>Register</h2>
+  <input type="text" placeholder="Full Name" /><br>
+  <input type="email" placeholder="Email" /><br>
+  <input type="password" placeholder="Password" /><br>
+  <button>Submit</button>
 </body>
 </html>
