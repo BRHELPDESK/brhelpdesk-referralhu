@@ -1,81 +1,71 @@
-!DOCTYPE html>
-<html lang="en">
+
+<!DOCTYPE html>
+<html lang="ml">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Matching History - BRHelpDesk</title>
+  <meta charset="UTF-8">
+  <title>Matching Income - BRHELPDESK</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: linear-gradient(to right, #ffecd2, #fcb69f);
-      color: #333;
-      padding: 40px;
+      font-family: sans-serif;
+      background: #f0f8ff;
+      padding: 20px;
+    }
+    h1 {
       text-align: center;
+      color: #2c3e50;
     }
-    table {
-      width: 90%;
-      margin: 0 auto;
-      border-collapse: collapse;
-      background: #fff;
+    .matching-list {
+      max-width: 600px;
+      margin: auto;
+      background: #ffffff;
       border-radius: 10px;
-      overflow: hidden;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 20px;
     }
-    th, td {
-      padding: 15px;
-      border-bottom: 1px solid #eee;
+    .match {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0;
+      border-bottom: 1px solid #ddd;
     }
-    th {
-      background-color: #f57c00;
-      color: white;
+    .match:last-child {
+      border-bottom: none;
+    }
+    .side {
+      font-weight: bold;
+    }
+    .amount {
+      color: green;
     }
     a {
+      display: block;
+      text-align: center;
       margin-top: 20px;
-      display: inline-block;
-      padding: 10px 20px;
-      background: #673ab7;
-      color: white;
       text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
+      color: #0984e3;
     }
   </style>
 </head>
 <body>
-  <h1>Matching History</h1>
-  <table>
-    <tr>
-      <th>Date</th>
-      <th>Left ID</th>
-      <th>Right ID</th>
-      <th>Matching Income</th>
-    </tr>
-    <tr>
-      <td>2025-04-21</td>
-      <td>ID123</td>
-      <td>ID456</td>
-      <td>₹50</td>
-    </tr>
-    <tr>
-      <td>2025-04-20</td>
-      <td>ID789</td>
-      <td>ID321</td>
-      <td>₹50</td>
-    </tr>
-    <!-- Add more rows as needed -->
-  </table>
-  <a href="dashboard.html">Back to Dashboard</a>
+
+  <h1>Matching Income</h1>
+  <div class="matching-list">
+    <div class="match">
+      <div class="side">Left: User123</div>
+      <div class="side">Right: User789</div>
+      <div class="amount">+₹50</div>
+    </div>
+    <div class="match">
+      <div class="side">Left: User555</div>
+      <div class="side">Right: User666</div>
+      <div class="amount">+₹50</div>
+    </div>
+    <!-- കൂടുതൽ Matching Data ഇവിടെ ചേർക്കാം -->
+  </div>
+
+  <a href="wallet.html">Back to Wallet</a>
+  <a href="index.html">Back to Home</a>
+
 </body>
 </html>
-
-!-- Ranks and Levels Section -->
-<div style="margin-top: 30px; background: #ede7f6; padding: 20px; border-radius: 10px;">
-  <h2 style="color: #6a1b9a;">Ranks & Levels</h2>
-  <ul style="line-height: 1.8;">
-    <li><strong>Foreman:</strong> Complete 5 referrals using any 4 referral links</li>
-    <li><strong>Supervisor:</strong> Help 5 downlines become Foreman</li>
-    <li><strong>Manager:</strong> Help 5 downlines become Supervisor</li>
-    <li><strong>Director:</strong> Help 5 Managers grow under you</li>
-  </ul>
-  <p style="color: #4a148c; font-weight: bold;">Climb ranks and unlock more rewards & recognition!</p>
-</div>
