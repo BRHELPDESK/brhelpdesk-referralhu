@@ -1,47 +1,48 @@
 !DOCTYPE html>
-<html>
+<html lang="ml">
 <head>
   <meta charset="UTF-8">
-  <title>BRHelpDesk Login</title>
+  <title>Login - BRHELPDESK</title>
   <style>
     body {
-      background: #f7f7f7;
-      font-family: Arial, sans-serif;
-      padding: 20px;
+      font-family: sans-serif;
+      background: #fce4ec;
       text-align: center;
-    }
-    .login-box {
-      background: #ffffff;
-      border-radius: 10px;
       padding: 30px;
-      max-width: 400px;
-      margin: auto;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     }
-    input {
-      width: 100%;
-      padding: 12px;
-      margin: 10px 0;
-      border: 1px solid #ccc;
-      border-radius: 6px;
+    h1 {
+      color: #ad1457;
+    }
+    input, button {
+      padding: 10px;
+      width: 80%;
+      max-width: 400px;
+      margin: 10px auto;
+      border-radius: 8px;
+      border: 1px solid #999;
+      display: block;
+      font-size: 16px;
     }
     button {
-      background: #007bff;
+      background-color: #ec407a;
       color: white;
-      padding: 12px 20px;
       border: none;
-      border-radius: 6px;
       cursor: pointer;
-      font-weight: bold;
+    }
+    button:hover {
+      background-color: #c2185b;
     }
   </style>
 </head>
 <body>
-  <div class="login-box">
-    <h2>Login to BRHelpDesk</h2>
-    <input type="text" placeholder="Username or Email">
-    <input type="password" placeholder="Password">
-    <button>Login</button>
-  </div>
+
+  <h1>BRHELPDESK ലോഗിൻ</h1>
+
+  <input type="email" placeholder="Email">
+  <input type="password" placeholder="Password">
+  <button>Login</button>
+
+  <p>അക്കൗണ്ട് ഇല്ലേ? <a href="register.html">Register ചെയ്യൂ</a></p>
+
 </body>
 </html>
