@@ -6,45 +6,64 @@
   <style>
     body {
       font-family: sans-serif;
-      background: #e3f2fd;
-      text-align: center;
-      padding: 30px;
+      background-color: #f1f2f6;
+      padding: 20px;
     }
     h1 {
-      color: #0d47a1;
+      color: #2d3436;
+      text-align: center;
     }
-    input, button {
-      padding: 10px;
-      width: 80%;
+    form {
       max-width: 400px;
-      margin: 10px auto;
-      border-radius: 8px;
-      border: 1px solid #999;
-      display: block;
-      font-size: 16px;
+      margin: auto;
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
     }
     button {
-      background-color: #2196F3;
+      background-color: #00b894;
       color: white;
       border: none;
-      cursor: pointer;
+      padding: 10px;
+      width: 100%;
+      border-radius: 5px;
+      font-size: 16px;
     }
-    button:hover {
-      background-color: #1976D2;
+    a {
+      display: block;
+      text-align: center;
+      margin-top: 15px;
+      color: #0984e3;
     }
   </style>
 </head>
 <body>
+  <h1>BRHELPDESK - Register</h1>
+  <form>
+    <label>Full Name</label>
+    <input type="text" placeholder="Enter your name" required>
+    
+    <label>Mobile Number</label>
+    <input type="tel" placeholder="Enter your mobile number" required>
 
-  <h1>BRHELPDESK-ലേക്ക് Register ചെയ്യൂ</h1>
+    <label>Password</label>
+    <input type="password" placeholder="Choose a password" required>
 
-  <input type="text" placeholder="പേര് / Name">
-  <input type="email" placeholder="Email">
-  <input type="tel" placeholder="Phone Number">
-  <input type="password" placeholder="Password">
-  <button>Register Now</button>
+    <label>Referral Code</label>
+    <input type="text" placeholder="Enter referral code (if any)">
 
-  <p>Already have an account? <a href="login.html">Login here</a></p>
+    <button type="submit">Register Now</button>
+  </form>
 
+  <a href="login.html">Already have an account? Login</a>
+  <a href="index.html">Back to Home</a>
 </body>
 </html>
