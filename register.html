@@ -1,69 +1,49 @@
-!DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="ml">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Register - BRHELPDESK</title>
   <style>
     body {
       font-family: sans-serif;
-      background-color: #f1f2f6;
-      padding: 20px;
+      background: #f0f8ff;
+      text-align: center;
+      padding: 40px;
     }
     h1 {
-      color: #2d3436;
-      text-align: center;
+      color: #333;
     }
-    form {
-      max-width: 400px;
-      margin: auto;
-      background: #ffffff;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-    input {
-      width: 100%;
+    input, button {
       padding: 10px;
-      margin: 8px 0;
-      border-radius: 5px;
-      border: 1px solid #ccc;
+      margin: 10px;
+      width: 80%;
+      max-width: 300px;
     }
     button {
-      background-color: #00b894;
+      background: #4CAF50;
       color: white;
       border: none;
-      padding: 10px;
-      width: 100%;
-      border-radius: 5px;
-      font-size: 16px;
+      cursor: pointer;
     }
     a {
       display: block;
-      text-align: center;
-      margin-top: 15px;
-      color: #0984e3;
+      margin-top: 20px;
+      color: #333;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
-  <h1>BRHELPDESK - Register</h1>
+  <h1>Register to BRHELPDESK</h1>
   <form>
-    <label>Full Name</label>
-    <input type="text" placeholder="Enter your name" required>
-    
-    <label>Mobile Number</label>
-    <input type="tel" placeholder="Enter your mobile number" required>
-
-    <label>Password</label>
-    <input type="password" placeholder="Choose a password" required>
-
-    <label>Referral Code</label>
-    <input type="text" placeholder="Enter referral code (if any)">
-
-    <button type="submit">Register Now</button>
+    <input type="text" placeholder="Full Name" required><br>
+    <input type="email" placeholder="Email" required><br>
+    <input type="tel" placeholder="Phone Number" required><br>
+    <input type="password" placeholder="Password" required><br>
+    <button type="submit">Register</button>
   </form>
-
-  <a href="login.html">Already have an account? Login</a>
-  <a href="index.html">Back to Home</a>
+  <a href="login.html">Already registered? Login here</a>
 </body>
 </html>
