@@ -2,24 +2,24 @@
 <html lang="ml">
 <head>
   <meta charset="UTF-8">
-  <title>Ranks | BR Helpdesk</title>
+  <title>Ranks | BRHELPDESK</title>
   <style>
     body {
-      font-family: sans-serif;
-      background-color: #f0f9ff;
+      background: #f9f9f9;
+      font-family: 'Segoe UI', sans-serif;
       padding: 20px;
     }
-    .rank-box {
-      background: #ffffff;
-      padding: 25px;
-      border-radius: 10px;
+    .container {
       max-width: 800px;
       margin: auto;
-      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-    h1 {
+    h2 {
+      color: #2c3e50;
       text-align: center;
-      color: #003366;
     }
     table {
       width: 100%;
@@ -27,51 +27,54 @@
       margin-top: 20px;
     }
     th, td {
-      padding: 12px;
-      border-bottom: 1px solid #ccc;
+      border: 1px solid #ccc;
+      padding: 10px;
       text-align: center;
     }
     th {
-      background-color: #cce5ff;
+      background-color: #2980b9;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
     }
   </style>
 </head>
 <body>
-  <div class="rank-box">
-    <h1>BR Helpdesk Ranks</h1>
+  <div class="container">
+    <h2>BRHELPDESK Rank System</h2>
     <table>
       <tr>
         <th>Rank</th>
-        <th>Referrals Needed</th>
-        <th>Matching Income Limit</th>
+        <th>Requirements</th>
+        <th>Benefits</th>
       </tr>
       <tr>
         <td>Foreman</td>
-        <td>5</td>
-        <td>₹500/day</td>
+        <td>5 Referrals</td>
+        <td>Eligible for Binary Income</td>
       </tr>
       <tr>
         <td>Supervisor</td>
-        <td>10</td>
-        <td>₹1000/day</td>
+        <td>15 Referrals + 3 Foreman</td>
+        <td>₹200 Bonus</td>
       </tr>
       <tr>
         <td>Manager</td>
-        <td>20</td>
-        <td>₹2000/day</td>
+        <td>30 Referrals + 3 Supervisors</td>
+        <td>₹500 Bonus</td>
       </tr>
       <tr>
         <td>Director</td>
-        <td>40</td>
-        <td>₹4000/day</td>
+        <td>50 Referrals + 3 Managers</td>
+        <td>₹1000 Bonus</td>
       </tr>
       <tr>
-        <td>Leader</td>
-        <td>100+</td>
-        <td>₹6000/day</td>
+        <td>Legend</td>
+        <td>100 Referrals + 3 Directors</td>
+        <td>₹5000 Bonus</td>
       </tr>
     </table>
-    <p style="margin-top: 20px;">Ranks are awarded based on referral performance and team growth.</p>
   </div>
 </body>
 </html>
