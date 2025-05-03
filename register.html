@@ -1,18 +1,50 @@
 !DOCTYPE html>
-<html>
+<html lang="ml">
 <head>
-  <title>Register - BR Helpdesk</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <title>Register - BRHELPDESK</title>
   <style>
-    body { font-family: sans-serif; padding: 20px; background: #eef; text-align: center; }
-    input, button { margin: 10px; padding: 10px; width: 80%; max-width: 300px; }
+    body {
+      font-family: sans-serif;
+      background: #e3f2fd;
+      text-align: center;
+      padding: 30px;
+    }
+    h1 {
+      color: #0d47a1;
+    }
+    input, button {
+      padding: 10px;
+      width: 80%;
+      max-width: 400px;
+      margin: 10px auto;
+      border-radius: 8px;
+      border: 1px solid #999;
+      display: block;
+      font-size: 16px;
+    }
+    button {
+      background-color: #2196F3;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #1976D2;
+    }
   </style>
 </head>
 <body>
-  <h2>Register</h2>
-  <input type="text" placeholder="Full Name" /><br>
-  <input type="email" placeholder="Email" /><br>
-  <input type="password" placeholder="Password" /><br>
-  <button>Submit</button>
+
+  <h1>BRHELPDESK-ലേക്ക് Register ചെയ്യൂ</h1>
+
+  <input type="text" placeholder="പേര് / Name">
+  <input type="email" placeholder="Email">
+  <input type="tel" placeholder="Phone Number">
+  <input type="password" placeholder="Password">
+  <button>Register Now</button>
+
+  <p>Already have an account? <a href="login.html">Login here</a></p>
+
 </body>
 </html>
