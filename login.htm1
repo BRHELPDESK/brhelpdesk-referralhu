@@ -1,17 +1,63 @@
 !DOCTYPE html>
-<html>
+<html lang="ml">
 <head>
-  <title>Login - BR Helpdesk</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <title>Login - BRHELPDESK</title>
   <style>
-    body { font-family: sans-serif; padding: 20px; background: #eef; text-align: center; }
-    input, button { margin: 10px; padding: 10px; width: 80%; max-width: 300px; }
+    body {
+      font-family: sans-serif;
+      background-color: #f0f4f8;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #2d3436;
+    }
+    form {
+      max-width: 400px;
+      margin: auto;
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #0984e3;
+      color: white;
+      border: none;
+      padding: 10px;
+      width: 100%;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    a {
+      display: block;
+      text-align: center;
+      margin-top: 15px;
+      color: #00b894;
+    }
   </style>
 </head>
 <body>
-  <h2>Login</h2>
-  <input type="email" placeholder="Email" /><br>
-  <input type="password" placeholder="Password" /><br>
-  <button>Login</button>
+  <h1>BRHELPDESK - Login</h1>
+  <form>
+    <label>Mobile Number</label>
+    <input type="tel" placeholder="Enter your mobile number" required>
+
+    <label>Password</label>
+    <input type="password" placeholder="Enter your password" required>
+
+    <button type="submit">Login</button>
+  </form>
+
+  <a href="register.html">Don't have an account? Register</a>
+  <a href="index.html">Back to Home</a>
 </body>
 </html>
