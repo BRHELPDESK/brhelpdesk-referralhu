@@ -1,48 +1,23 @@
 !DOCTYPE html>
-<html lang="ml">
+<html>
 <head>
   <meta charset="UTF-8">
-  <title>Login - BRHELPDESK</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      background: #fce4ec;
-      text-align: center;
-      padding: 30px;
-    }
-    h1 {
-      color: #ad1457;
-    }
-    input, button {
-      padding: 10px;
-      width: 80%;
-      max-width: 400px;
-      margin: 10px auto;
-      border-radius: 8px;
-      border: 1px solid #999;
-      display: block;
-      font-size: 16px;
-    }
-    button {
-      background-color: #ec407a;
-      color: white;
-      border: none;
-      cursor: pointer;
-    }
-    button:hover {
-      background-color: #c2185b;
-    }
-  </style>
+  <title>Login - BR Helpdesk</title>
 </head>
 <body>
+  <h1>Login to BR Helpdesk</h1>
+  <p>താങ്കളുടെ അക്കൗണ്ടിലേക്ക് ലോഗിൻ ചെയ്യൂ.</p>
+  <form action="#" method="post">
+    <label>Email:</label><br>
+    <input type="email" name="email"><br><br>
 
-  <h1>BRHELPDESK ലോഗിൻ</h1>
+    <label>Password:</label><br>
+    <input type="password" name="password"><br><br>
 
-  <input type="email" placeholder="Email">
-  <input type="password" placeholder="Password">
-  <button>Login</button>
+    <button type="submit">Login</button>
+  </form>
 
-  <p>അക്കൗണ്ട് ഇല്ലേ? <a href="register.html">Register ചെയ്യൂ</a></p>
-
+  <p><a href="register.html">Don't have an account? Register</a></p>
+  <p><a href="index.html">Back to Home</a></p>
 </body>
 </html>
