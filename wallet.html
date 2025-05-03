@@ -1,50 +1,54 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ml">
 <head>
   <meta charset="UTF-8">
-  <title>Wallet | BR Helpdesk</title>
+  <title>Wallet | BRHELPDESK</title>
   <style>
     body {
-      font-family: sans-serif;
-      background-color: #f4f4f4;
+      background: #eef2f7;
+      font-family: 'Segoe UI', sans-serif;
       padding: 20px;
     }
-    h1 {
-      color: #333;
-    }
-    .wallet-box {
-      background: #fff;
-      border-radius: 10px;
-      padding: 20px;
-      box-shadow: 0 0 10px #ccc;
-      max-width: 400px;
+    .wallet-container {
+      max-width: 700px;
       margin: auto;
+      background: white;
+      border-radius: 10px;
+      padding: 25px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-    .amount {
-      font-size: 24px;
-      font-weight: bold;
-      color: green;
+    h2 {
+      text-align: center;
+      color: #2c3e50;
     }
-    .label {
-      margin-top: 10px;
-      font-size: 18px;
-      color: #555;
+    .wallet-section {
+      margin: 15px 0;
+      padding: 15px;
+      background: #f7fafc;
+      border-left: 5px solid #2980b9;
+      border-radius: 5px;
+    }
+    .wallet-section strong {
+      color: #2c3e50;
     }
   </style>
 </head>
 <body>
-  <div class="wallet-box">
-    <h1>BR Helpdesk Wallet</h1>
-    <div class="label">Referral Income:</div>
-    <div class="amount">₹125</div>
+  <div class="wallet-container">
+    <h2>BRHELPDESK Wallet</h2>
 
-    <div class="label">Matching Income:</div>
-    <div class="amount">₹200</div>
-
-    <div class="label">Top-Up Wallet:</div>
-    <div class="amount">₹50</div>
-
-    <p style="margin-top: 20px;">Wallet ഇനങ്ങൾ വെർഫൈ ചെയ്തതിന്റെ അടിസ്ഥാനത്തിൽ auto update ആകും.</p>
+    <div class="wallet-section">
+      <strong>Matching Income:</strong> ₹250
+    </div>
+    <div class="wallet-section">
+      <strong>Referral Income:</strong> ₹125
+    </div>
+    <div class="wallet-section">
+      <strong>Top-Up Wallet:</strong> ₹450
+    </div>
+    <div class="wallet-section">
+      <strong>Total Earnings:</strong> ₹825
+    </div>
   </div>
 </body>
 </html>
