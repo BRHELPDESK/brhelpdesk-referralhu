@@ -6,42 +6,57 @@
   <style>
     body {
       font-family: sans-serif;
-      background-color: #f9f9f9;
+      background-color: #f1f2f6;
       padding: 20px;
     }
     h1 {
+      text-align: center;
       color: #2d3436;
     }
-    .wallet-box {
-      background: #ffffff;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    .wallet {
       max-width: 400px;
       margin: auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     }
-    .item {
+    .balance {
+      font-size: 24px;
+      font-weight: bold;
+      color: #0984e3;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      background: #dfe6e9;
       margin: 10px 0;
-      font-size: 18px;
+      padding: 10px;
+      border-radius: 5px;
     }
     a {
-      display: inline-block;
+      display: block;
+      text-align: center;
       margin-top: 20px;
-      color: #0984e3;
-      text-decoration: none;
+      color: #00b894;
     }
   </style>
 </head>
 <body>
-  <h1>BRHELPDESK Wallet</h1>
-  <div class="wallet-box">
-    <div class="item">Referral Earnings: ₹<strong>125</strong></div>
-    <div class="item">Matching Income: ₹<strong>300</strong></div>
-    <div class="item">Top-up Wallet: ₹<strong>850</strong></div>
-    <div class="item">Total Balance: ₹<strong>1275</strong></div>
+  <h1>Wallet</h1>
+  <div class="wallet">
+    <div class="balance">Current Balance: ₹250</div>
+    <ul>
+      <li>+₹25 - Roz Dhan Referral</li>
+      <li>+₹25 - Frizza Referral</li>
+      <li>+₹100 - Matching Income</li>
+      <li>-₹50 - Transfer to Top-up Wallet</li>
+    </ul>
   </div>
-
   <a href="index.html">Back to Home</a>
 </body>
 </html>
-
