@@ -1,71 +1,71 @@
-
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="ml">
 <head>
   <meta charset="UTF-8">
-  <title>Matching Income - BRHELPDESK</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matching Income | BRHELPDESK</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
-      font-family: sans-serif;
-      background: #f0f8ff;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #e8f5e9, #c8e6c9);
       padding: 20px;
+      color: #1b5e20;
     }
     h1 {
       text-align: center;
-      color: #2c3e50;
+      color: #2e7d32;
     }
-    .matching-list {
-      max-width: 600px;
+    .match-list {
+      max-width: 700px;
       margin: auto;
-      background: #ffffff;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      background: #f1f8e9;
       padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
     }
-    .match {
+    .match-item {
       display: flex;
       justify-content: space-between;
-      padding: 10px 0;
-      border-bottom: 1px solid #ddd;
+      padding: 12px;
+      margin-bottom: 8px;
+      background: #e8f5e9;
+      border-radius: 6px;
     }
-    .match:last-child {
-      border-bottom: none;
+    .match-item:nth-child(odd) {
+      background: #d0f0c0;
     }
-    .side {
-      font-weight: bold;
-    }
-    .amount {
-      color: green;
-    }
-    a {
-      display: block;
+    .back-link {
       text-align: center;
       margin-top: 20px;
+    }
+    .back-link a {
+      color: #2e7d32;
       text-decoration: none;
-      color: #0984e3;
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
 
-  <h1>Matching Income</h1>
-  <div class="matching-list">
-    <div class="match">
-      <div class="side">Left: User123</div>
-      <div class="side">Right: User789</div>
-      <div class="amount">+₹50</div>
+  <h1>Matching Income Details</h1>
+
+  <div class="match-list">
+    <div class="match-item">
+      <span>Left: UserA</span>
+      <span>Right: UserB</span>
+      <span>+₹50</span>
     </div>
-    <div class="match">
-      <div class="side">Left: User555</div>
-      <div class="side">Right: User666</div>
-      <div class="amount">+₹50</div>
+    <div class="match-item">
+      <span>Left: UserC</span>
+      <span>Right: UserD</span>
+      <span>+₹50</span>
     </div>
-    <!-- കൂടുതൽ Matching Data ഇവിടെ ചേർക്കാം -->
+    <!-- മറ്റുഎത്ര match entries ആവശ്യമെങ്കിൽ ഇവിടെ കൂട്ടാം -->
   </div>
 
-  <a href="wallet.html">Back to Wallet</a>
-  <a href="index.html">Back to Home</a>
+  <div class="back-link">
+    <a href="wallet.html">Back to Wallet</a>
+  </div>
 
 </body>
 </html>
