@@ -1,22 +1,53 @@
 !DOCTYPE html>
-<html>
+<html lang="ml">
 <head>
   <meta charset="UTF-8">
-  <title>Wallet - BR Helpdesk</title>
+  <title>BR Helpdesk - Wallet</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      padding: 20px;
+    }
+    h1 {
+      color: #222;
+    }
+    .wallet-section {
+      background: #fff;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-left: 5px solid #2196F3;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+  </style>
 </head>
 <body>
-  <h1>My Wallet</h1>
-  <p>താങ്കളുടെ വരുമാനവും ബോണസ്സുകളും ഇവിടെ കാണാം:</p>
+  <h1>Wallet Summary</h1>
 
-  <ul>
-    <li><strong>Total Referral Bonus:</strong> ₹0</li>
-    <li><strong>Matching Income:</strong> ₹0</li>
-    <li><strong>Top-up Wallet Balance:</strong> ₹0</li>
-    <li><strong>Total Earnings:</strong> ₹0</li>
-  </ul>
+  <div class="wallet-section">
+    <strong>Total Matching Income:</strong> ₹<span id="totalIncome">0</span>
+  </div>
 
-  <p>നിങ്ങളുടെ വരുമാനം പ്രവർത്തനത്തിന് അനുസരിച്ച് update ചെയ്യപ്പെടും.</p>
+  <div class="wallet-section">
+    <strong>Top-Up Wallet:</strong> ₹<span id="topupWallet">0</span>
+  </div>
+
+  <div class="wallet-section">
+    <strong>Daily Income Limit:</strong> ₹<span id="dailyLimit">500</span>
+  </div>
+
+  <div class="wallet-section">
+    <strong>Match History:</strong>
+    <ul>
+      <li>Match 1 - ₹50</li>
+      <li>Match 2 - ₹50</li>
+      <li>Match 3 - ₹50</li>
+      <!-- Add more as needed -->
+    </ul>
+  </div>
 
   <p><a href="index.html">Back to Home</a></p>
+
+  <!-- Optionally add script to calculate values dynamically in future -->
 </body>
 </html>
