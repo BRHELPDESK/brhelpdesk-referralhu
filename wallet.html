@@ -7,35 +7,37 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #e3f2fd;
+      background: linear-gradient(to top right, #ffecb3, #ffe0b2);
       padding: 20px;
+      color: #333;
     }
     h1 {
       text-align: center;
-      color: #0d47a1;
+      color: #e65100;
     }
     .wallet-box {
-      max-width: 400px;
+      max-width: 500px;
       margin: auto;
-      background-color: #bbdefb;
+      background-color: #fff3e0;
       padding: 20px;
-      border-radius: 10px;
+      border-radius: 12px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-    .wallet-item {
+    .wallet-info {
       font-size: 18px;
-      margin-bottom: 15px;
+      margin-bottom: 10px;
+      line-height: 1.6;
     }
-    .wallet-label {
+    .highlight {
+      color: #d84315;
       font-weight: bold;
-      color: #1565c0;
     }
-    p.back {
+    .back-link {
       text-align: center;
-      margin-top: 20px;
+      margin-top: 30px;
     }
-    p.back a {
-      color: #0d47a1;
+    .back-link a {
+      color: #bf360c;
       text-decoration: none;
       font-weight: bold;
     }
@@ -43,24 +45,19 @@
 </head>
 <body>
 
-  <h1>BRHELPDESK Wallet</h1>
-  
+  <h1>My Wallet</h1>
+
   <div class="wallet-box">
-    <div class="wallet-item">
-      <span class="wallet-label">Referral Income:</span> ₹0.00
-    </div>
-    <div class="wallet-item">
-      <span class="wallet-label">Matching Income:</span> ₹0.00
-    </div>
-    <div class="wallet-item">
-      <span class="wallet-label">Top-up Wallet:</span> ₹0.00
-    </div>
-    <div class="wallet-item">
-      <span class="wallet-label">Total Earnings:</span> ₹0.00
-    </div>
+    <div class="wallet-info">Matching Income: <span class="highlight">₹0</span></div>
+    <div class="wallet-info">Referral Income: <span class="highlight">₹0</span></div>
+    <div class="wallet-info">Top-Up Wallet: <span class="highlight">₹0</span></div>
+    <div class="wallet-info">Total Income: <span class="highlight">₹0</span></div>
+    <div class="wallet-info">Available Balance: <span class="highlight">₹0</span></div>
   </div>
 
-  <p class="back"><a href="index.html">Back to Home</a></p>
+  <div class="back-link">
+    <a href="index.html">Back to Home</a>
+  </div>
 
 </body>
 </html>
