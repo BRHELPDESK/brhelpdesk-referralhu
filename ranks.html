@@ -7,39 +7,42 @@
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to right, #ffecb3, #fffde7);
+      background: linear-gradient(to right, #e0f7fa, #b2ebf2);
       padding: 20px;
-      color: #4e342e;
+      color: #006064;
     }
     h1 {
       text-align: center;
-      color: #e65100;
+      color: #004d40;
     }
     .rank-box {
-      max-width: 700px;
+      max-width: 800px;
       margin: auto;
-      background-color: #fff3e0;
-      padding: 25px;
-      border-radius: 15px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.08);
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.05);
     }
-    .rank-step {
-      margin-bottom: 15px;
-      padding: 10px;
-      background-color: #ffe0b2;
-      border-radius: 10px;
-      line-height: 1.6;
+    .rank {
+      border-bottom: 1px solid #b2ebf2;
+      padding: 15px 0;
     }
-    .highlight {
-      font-weight: bold;
-      color: #d84315;
+    .rank:last-child {
+      border-bottom: none;
+    }
+    .rank h3 {
+      margin: 0;
+      color: #00796b;
+    }
+    .rank p {
+      margin: 5px 0;
     }
     .back-link {
       text-align: center;
-      margin-top: 30px;
+      margin-top: 20px;
     }
     .back-link a {
-      color: #4e342e;
+      color: #00796b;
       text-decoration: none;
       font-weight: bold;
     }
@@ -47,16 +50,39 @@
 </head>
 <body>
 
-  <h1>Ranks & Promotions</h1>
+  <h1>BRHELPDESK Ranks</h1>
 
   <div class="rank-box">
-    <div class="rank-step"><span class="highlight">1. Foreman:</span> 5 Referrals + ₹125 Income.</div>
-    <div class="rank-step"><span class="highlight">2. Supervisor:</span> 10 Referrals + ₹250 Income.</div>
-    <div class="rank-step"><span class="highlight">3. Coordinator:</span> 25 Referrals + ₹600 Income.</div>
-    <div class="rank-step"><span class="highlight">4. Area Leader:</span> 50 Referrals + ₹1500 Income.</div>
-    <div class="rank-step"><span class="highlight">5. District Leader:</span> 100 Referrals + ₹3000 Income.</div>
-    <div class="rank-step"><span class="highlight">6. State Manager:</span> 250 Referrals + ₹7500 Income.</div>
-    <div class="rank-step"><span class="highlight">7. National Leader:</span> 500+ Referrals + ₹15,000+ Income.</div>
+    <div class="rank">
+      <h3>1. Foreman</h3>
+      <p>Requirement: 5 referrals</p>
+      <p>Bonus: ₹100</p>
+    </div>
+    <div class="rank">
+      <h3>2. Supervisor</h3>
+      <p>Requirement: 20 team members</p>
+      <p>Bonus: ₹200</p>
+    </div>
+    <div class="rank">
+      <h3>3. Officer</h3>
+      <p>Requirement: 50 team members</p>
+      <p>Bonus: ₹500</p>
+    </div>
+    <div class="rank">
+      <h3>4. Leader</h3>
+      <p>Requirement: 100 team members</p>
+      <p>Bonus: ₹1000</p>
+    </div>
+    <div class="rank">
+      <h3>5. District Partner</h3>
+      <p>Requirement: 250 team members</p>
+      <p>Bonus: ₹2500</p>
+    </div>
+    <div class="rank">
+      <h3>6. State Partner</h3>
+      <p>Requirement: 500+ members & 2 District Partners</p>
+      <p>Bonus: ₹5000</p>
+    </div>
   </div>
 
   <div class="back-link">
