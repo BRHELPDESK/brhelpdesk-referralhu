@@ -6,70 +6,62 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: linear-gradient(to bottom right, #e1bee7, #b2dfdb);
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #f3e5f5, #e1bee7);
       padding: 20px;
-      color: #2e2e2e;
+      color: #4a148c;
     }
     h1 {
       text-align: center;
-      color: #4a148c;
+      color: #6a1b9a;
     }
-    .referral-list {
-      max-width: 700px;
+    .referral-box {
+      max-width: 800px;
       margin: auto;
-      background: white;
-      border-radius: 12px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.15);
-      padding: 20px;
+      background-color: #fce4ec;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.08);
     }
-    .referral-item {
+    .app-link {
       margin: 10px 0;
-      background-color: #ede7f6;
-      padding: 12px;
-      border-radius: 8px;
+      padding: 15px;
+      background-color: #f8bbd0;
+      border-radius: 10px;
+      font-size: 18px;
+      text-align: center;
     }
-    .referral-item a {
-      color: #1a237e;
+    .app-link a {
+      color: #4a148c;
       text-decoration: none;
       font-weight: bold;
     }
-    .referral-item a:hover {
-      text-decoration: underline;
-    }
-    a.back {
-      display: block;
+    .back-link {
       text-align: center;
       margin-top: 30px;
-      font-weight: bold;
-      color: #004d40;
+    }
+    .back-link a {
+      color: #4a148c;
       text-decoration: none;
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
 
-  <h1>Referral Hub</h1>
+  <h1>BRHELPDESK Referral Hub</h1>
 
-  <div class="referral-list">
-    <div class="referral-item">
-      <a href="https://roz.click/abcd1234" target="_blank">Join Roz Dhan (₹25)</a>
-    </div>
-    <div class="referral-item">
-      <a href="https://frizza.in/join/xyz5678" target="_blank">Join Frizza (₹25)</a>
-    </div>
-    <div class="referral-item">
-      <a href="https://cashkaro.com/r=abcd1234" target="_blank">Join CashKaro (₹25)</a>
-    </div>
-    <div class="referral-item">
-      <a href="https://taskbox.in/join/abcd1234" target="_blank">Join TaskBox (₹25)</a>
-    </div>
-    <div class="referral-item">
-      <a href="https://refermate.com/abcd1234" target="_blank">Join ReferMate (₹25)</a>
-    </div>
+  <div class="referral-box">
+    <div class="app-link"><a href="https://roz.click/abcd1234">Join Roz Dhan (₹25)</a></div>
+    <div class="app-link"><a href="https://frizza.in/join/xyz5678">Join Frizza (₹25)</a></div>
+    <div class="app-link"><a href="https://cashkaro.com/r=abcd1234">Join CashKaro (₹25)</a></div>
+    <div class="app-link"><a href="https://taskbox.in/join/abcd1234">Join TaskBox (₹25)</a></div>
+    <div class="app-link"><a href="https://refermate.com/abcd1234">Join ReferMate (₹25)</a></div>
   </div>
 
-  <a class="back" href="index.html">Back to Home</a>
+  <div class="back-link">
+    <a href="index.html">Back to Home</a>
+  </div>
 
 </body>
 </html>
