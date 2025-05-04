@@ -2,49 +2,45 @@
 <html lang="ml">
 <head>
   <meta charset="UTF-8">
-  <title>BR Helpdesk Wallet</title>
+  <title>BRHELPDESK Wallet</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f0fff0;
+      background-color: #fff8e1;
       padding: 20px;
     }
     h1 {
-      color: #2e7d32;
+      color: #f57c00;
     }
-    .wallet-section {
-      background: #e8f5e9;
+    .wallet-box {
+      background: #ffecb3;
       padding: 15px;
       margin-bottom: 15px;
-      border-left: 6px solid #66bb6a;
-      box-shadow: 0 0 4px rgba(0,0,0,0.1);
+      border-left: 5px solid #ff9800;
     }
   </style>
 </head>
 <body>
   <h1>BRHELPDESK Wallet</h1>
 
-  <div class="wallet-section">
-    <strong>Matching Income:</strong> ₹<span id="matchIncome">0.00</span>
+  <div class="wallet-box">
+    <strong>Main Wallet:</strong> ₹<span id="mainWallet">0</span>
   </div>
 
-  <div class="wallet-section">
-    <strong>Top-up Wallet:</strong> ₹<span id="topupWallet">0.00</span>
+  <div class="wallet-box">
+    <strong>Matching Income:</strong> ₹<span id="matchIncome">0</span>
   </div>
 
-  <div class="wallet-section">
-    <strong>Daily Income Limit:</strong> ₹<span id="dailyLimit">500</span>
+  <div class="wallet-box">
+    <strong>Top-up Wallet:</strong> ₹<span id="topupWallet">0</span>
   </div>
 
-  <div class="wallet-section">
-    <strong>Active IDs:</strong>
-    <ul>
-      <li>ID #1 – ₹50 Matching</li>
-      <li>ID #2 – ₹100 Matching (Unlocked)</li>
-      <!-- Add more dynamically -->
-    </ul>
+  <div class="wallet-box">
+    <strong>Daily Limit:</strong> ₹<span id="dailyLimit">500</span>
   </div>
 
   <p><a href="index.html">Back to Home</a></p>
+
+  <!-- Future JavaScript integration can update these values -->
 </body>
 </html>
