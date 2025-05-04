@@ -2,34 +2,34 @@
 <html lang="ml">
 <head>
   <meta charset="UTF-8">
-  <title>BR Helpdesk - Wallet</title>
+  <title>BR Helpdesk Wallet</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f9f9f9;
+      background: #f0fff0;
       padding: 20px;
     }
     h1 {
-      color: #222;
+      color: #2e7d32;
     }
     .wallet-section {
-      background: #fff;
+      background: #e8f5e9;
       padding: 15px;
       margin-bottom: 15px;
-      border-left: 5px solid #2196F3;
-      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      border-left: 6px solid #66bb6a;
+      box-shadow: 0 0 4px rgba(0,0,0,0.1);
     }
   </style>
 </head>
 <body>
-  <h1>Wallet Summary</h1>
+  <h1>BRHELPDESK Wallet</h1>
 
   <div class="wallet-section">
-    <strong>Total Matching Income:</strong> ₹<span id="totalIncome">0</span>
+    <strong>Matching Income:</strong> ₹<span id="matchIncome">0.00</span>
   </div>
 
   <div class="wallet-section">
-    <strong>Top-Up Wallet:</strong> ₹<span id="topupWallet">0</span>
+    <strong>Top-up Wallet:</strong> ₹<span id="topupWallet">0.00</span>
   </div>
 
   <div class="wallet-section">
@@ -37,17 +37,14 @@
   </div>
 
   <div class="wallet-section">
-    <strong>Match History:</strong>
+    <strong>Active IDs:</strong>
     <ul>
-      <li>Match 1 - ₹50</li>
-      <li>Match 2 - ₹50</li>
-      <li>Match 3 - ₹50</li>
-      <!-- Add more as needed -->
+      <li>ID #1 – ₹50 Matching</li>
+      <li>ID #2 – ₹100 Matching (Unlocked)</li>
+      <!-- Add more dynamically -->
     </ul>
   </div>
 
   <p><a href="index.html">Back to Home</a></p>
-
-  <!-- Optionally add script to calculate values dynamically in future -->
 </body>
 </html>
