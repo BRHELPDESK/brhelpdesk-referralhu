@@ -1,59 +1,78 @@
 !DOCTYPE html>
-<html lang="ml">
+<html>
 <head>
+  <title>Ranks - BRHELPDESK</title>
   <meta charset="UTF-8">
-  <title>BRHELPDESK Ranks</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #fff8f0;
+      background: linear-gradient(to bottom right, #ffccff, #ccffff);
+      margin: 0;
       padding: 20px;
+      color: #333;
     }
     h1 {
       text-align: center;
-      color: #8e44ad;
+      color: #4a148c;
     }
-    .rank {
-      background-color: #f0e5ff;
-      margin: 10px auto;
-      padding: 15px;
+    .rank-card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 15px auto;
       max-width: 500px;
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
-    .rank h2 {
-      color: #6c3483;
+    .rank-card h2 {
+      margin: 0;
+      color: #1a237e;
+    }
+    .rank-card p {
+      margin: 8px 0;
     }
   </style>
 </head>
 <body>
+
   <h1>BRHELPDESK Rank System</h1>
 
-  <div class="rank">
+  <div class="rank-card">
     <h2>1. Foreman</h2>
-    <p>5 Successful Referrals Completed</p>
+    <p>Requirement: 5 Referrals completed</p>
+    <p>Matching Income: ₹50 per pair</p>
+    <p>Daily Limit: ₹500</p>
   </div>
 
-  <div class="rank">
+  <div class="rank-card">
     <h2>2. Supervisor</h2>
-    <p>10 Referrals + ₹500 Income</p>
+    <p>Requirement: ₹1000 Top-up</p>
+    <p>Matching Income: ₹100 per pair</p>
+    <p>Daily Limit: ₹1000</p>
   </div>
 
-  <div class="rank">
-    <h2>3. Manager</h2>
-    <p>25 Referrals + ₹1500 Income</p>
+  <div class="rank-card">
+    <h2>3. Team Leader</h2>
+    <p>Requirement: ₹2000 Top-up</p>
+    <p>Matching Income: ₹200 per pair</p>
+    <p>Daily Limit: ₹2000</p>
   </div>
 
-  <div class="rank">
-    <h2>4. Director</h2>
-    <p>50 Referrals + ₹3000 Income</p>
+  <div class="rank-card">
+    <h2>4. Manager</h2>
+    <p>Requirement: ₹4000 Top-up</p>
+    <p>Matching Income: ₹400 per pair</p>
+    <p>Daily Limit: ₹4000</p>
   </div>
 
-  <div class="rank">
-    <h2>5. Chief</h2>
-    <p>100 Referrals + ₹5000 Income</p>
+  <div class="rank-card">
+    <h2>5. Senior Manager</h2>
+    <p>Requirement: ₹6000 Top-up</p>
+    <p>Matching Income: ₹600 per pair</p>
+    <p>Daily Limit: ₹6000</p>
   </div>
 
-  <p style="text-align:center;"><a href="index.html">Back to Home</a></p>
+  <p style="text-align:center; margin-top: 40px;">Powered by ChatGPT | BRHELPDESK</p>
+
 </body>
 </html>
