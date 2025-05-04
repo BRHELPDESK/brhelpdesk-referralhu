@@ -1,59 +1,75 @@
 !DOCTYPE html>
-<html>
+<html lang="ml">
 <head>
-  <title>Referral Hub - BRHELPDESK</title>
   <meta charset="UTF-8">
+  <title>Referral Hub | BRHELPDESK</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to right, #f8bbd0, #e1bee7);
-      color: #4a148c;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom right, #e1bee7, #b2dfdb);
       padding: 20px;
+      color: #2e2e2e;
     }
     h1 {
       text-align: center;
-      margin-bottom: 20px;
-    }
-    .link-box {
-      background: white;
-      border-radius: 10px;
-      padding: 15px;
-      margin: 10px auto;
-      max-width: 500px;
-      box-shadow: 0 3px 8px rgba(0,0,0,0.2);
-    }
-    a {
-      text-decoration: none;
       color: #4a148c;
+    }
+    .referral-list {
+      max-width: 700px;
+      margin: auto;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.15);
+      padding: 20px;
+    }
+    .referral-item {
+      margin: 10px 0;
+      background-color: #ede7f6;
+      padding: 12px;
+      border-radius: 8px;
+    }
+    .referral-item a {
+      color: #1a237e;
+      text-decoration: none;
       font-weight: bold;
     }
-    a:hover {
-      color: #d81b60;
+    .referral-item a:hover {
+      text-decoration: underline;
+    }
+    a.back {
+      display: block;
+      text-align: center;
+      margin-top: 30px;
+      font-weight: bold;
+      color: #004d40;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
 
-  <h1>BRHELPDESK Referral Hub</h1>
+  <h1>Referral Hub</h1>
 
-  <div class="link-box">
-    <a href="https://roz.click/abcd1234" target="_blank">Join Roz Dhan (₹25)</a>
-  </div>
-  <div class="link-box">
-    <a href="https://frizza.in/join/xyz5678" target="_blank">Join Frizza (₹25)</a>
-  </div>
-  <div class="link-box">
-    <a href="https://cashkaro.com/r=abcd1234" target="_blank">Join CashKaro (₹25)</a>
-  </div>
-  <div class="link-box">
-    <a href="https://taskbox.in/join/abcd1234" target="_blank">Join TaskBox (₹25)</a>
-  </div>
-  <div class="link-box">
-    <a href="https://refermate.com/abcd1234" target="_blank">Join ReferMate (₹25)</a>
+  <div class="referral-list">
+    <div class="referral-item">
+      <a href="https://roz.click/abcd1234" target="_blank">Join Roz Dhan (₹25)</a>
+    </div>
+    <div class="referral-item">
+      <a href="https://frizza.in/join/xyz5678" target="_blank">Join Frizza (₹25)</a>
+    </div>
+    <div class="referral-item">
+      <a href="https://cashkaro.com/r=abcd1234" target="_blank">Join CashKaro (₹25)</a>
+    </div>
+    <div class="referral-item">
+      <a href="https://taskbox.in/join/abcd1234" target="_blank">Join TaskBox (₹25)</a>
+    </div>
+    <div class="referral-item">
+      <a href="https://refermate.com/abcd1234" target="_blank">Join ReferMate (₹25)</a>
+    </div>
   </div>
 
-  <p style="text-align:center; margin-top: 30px;">Powered by ChatGPT | BRHELPDESK</p>
+  <a class="back" href="index.html">Back to Home</a>
 
 </body>
 </html>
