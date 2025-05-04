@@ -1,82 +1,79 @@
 !DOCTYPE html>
-<html lang="en">
+<html lang="ml">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Income History - BRHelpDesk</title>
+  <meta charset="UTF-8">
+  <title>Total Income | BRHELPDESK</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(to bottom right, #f9fbe7, #e0f7fa);
-      padding: 40px;
-      text-align: center;
-      color: #333;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #f3e5f5, #e1bee7);
+      padding: 20px;
+      color: #4a148c;
     }
     h1 {
-      color: #1b5e20;
-    }
-    table {
-      margin: 20px auto;
-      border-collapse: collapse;
-      width: 95%;
-      max-width: 700px;
-      box-shadow: 0 0 8px rgba(0,0,0,0.1);
-    }
-    th, td {
-      border: 1px solid #ccc;
-      padding: 14px;
       text-align: center;
+      color: #6a1b9a;
     }
-    th {
-      background: #004d40;
-      color: white;
+    .income-box {
+      max-width: 700px;
+      margin: auto;
+      background: #fce4ec;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
     }
-    tr:nth-child(even) {
-      background-color: #f1f8e9;
+    .income-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0;
+      border-bottom: 1px solid #e1bee7;
     }
-    a {
-      display: inline-block;
-      margin-top: 30px;
-      padding: 10px 25px;
-      background: #006064;
-      color: white;
+    .income-row:last-child {
+      border-bottom: none;
+    }
+    .total {
+      font-size: 18px;
+      font-weight: bold;
+      color: #880e4f;
+    }
+    .back-link {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .back-link a {
+      color: #6a1b9a;
       text-decoration: none;
-      border-radius: 8px;
       font-weight: bold;
     }
   </style>
 </head>
 <body>
-  <h1>Income History</h1>
 
-  <table>
-    <tr>
-      <th>Date</th>
-      <th>Source</th>
-      <th>Amount (₹)</th>
-      <th>Status</th>
-    </tr>
-    <tr>
-      <td>2025-04-20</td>
-      <td>Referral Matching</td>
-      <td>₹50</td>
-      <td>Credited</td>
-    </tr>
-    <tr>
-      <td>2025-04-19</td>
-      <td>Level Bonus</td>
-      <td>₹100</td>
-      <td>Credited</td>
-    </tr>
-    <tr>
-      <td>2025-04-18</td>
-      <td>Top-up Reward</td>
-      <td>₹200</td>
-      <td>Pending</td>
-    </tr>
-    <!-- More rows can be added dynamically -->
-  </table>
+  <h1>Total Income</h1>
 
-  <a href="dashboard.html">Back to Dashboard</a>
+  <div class="income-box">
+    <div class="income-row">
+      <span>Referral Income:</span>
+      <span>₹250</span>
+    </div>
+    <div class="income-row">
+      <span>Matching Income:</span>
+      <span>₹300</span>
+    </div>
+    <div class="income-row">
+      <span>Rank Bonus:</span>
+      <span>₹150</span>
+    </div>
+    <div class="income-row total">
+      <span>Total:</span>
+      <span>₹700</span>
+    </div>
+  </div>
+
+  <div class="back-link">
+    <a href="wallet.html">Back to Wallet</a>
+  </div>
+
 </body>
 </html>
