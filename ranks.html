@@ -6,43 +6,62 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #e8f5e9;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #ffecb3, #fffde7);
       padding: 20px;
+      color: #4e342e;
     }
     h1 {
       text-align: center;
-      color: #2e7d32;
+      color: #e65100;
     }
-    .rank-table {
+    .rank-box {
       max-width: 700px;
       margin: auto;
-      background-color: #c8e6c9;
-      border-radius: 10px;
-      padding: 20px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      background-color: #fff3e0;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.08);
     }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-    }
-    th, td {
-      text-align: center;
+    .rank-step {
+      margin-bottom: 15px;
       padding: 10px;
-      border-bottom: 1px solid #a5d6a7;
+      background-color: #ffe0b2;
+      border-radius: 10px;
+      line-height: 1.6;
     }
-    th {
-      background-color: #66bb6a;
-      color: white;
+    .highlight {
+      font-weight: bold;
+      color: #d84315;
     }
-    a {
-      display: block;
+    .back-link {
       text-align: center;
-      margin-top: 20px;
-      color: #1b5e20;
+      margin-top: 30px;
+    }
+    .back-link a {
+      color: #4e342e;
       text-decoration: none;
       font-weight: bold;
     }
   </style>
 </head>
 <body>
+
+  <h1>Ranks & Promotions</h1>
+
+  <div class="rank-box">
+    <div class="rank-step"><span class="highlight">1. Foreman:</span> 5 Referrals + ₹125 Income.</div>
+    <div class="rank-step"><span class="highlight">2. Supervisor:</span> 10 Referrals + ₹250 Income.</div>
+    <div class="rank-step"><span class="highlight">3. Coordinator:</span> 25 Referrals + ₹600 Income.</div>
+    <div class="rank-step"><span class="highlight">4. Area Leader:</span> 50 Referrals + ₹1500 Income.</div>
+    <div class="rank-step"><span class="highlight">5. District Leader:</span> 100 Referrals + ₹3000 Income.</div>
+    <div class="rank-step"><span class="highlight">6. State Manager:</span> 250 Referrals + ₹7500 Income.</div>
+    <div class="rank-step"><span class="highlight">7. National Leader:</span> 500+ Referrals + ₹15,000+ Income.</div>
+  </div>
+
+  <div class="back-link">
+    <a href="index.html">Back to Home</a>
+  </div>
+
+</body>
+</html>
