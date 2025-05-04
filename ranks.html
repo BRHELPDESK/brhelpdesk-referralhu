@@ -7,72 +7,77 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: linear-gradient(to bottom right, #ffccff, #ccffff);
-      margin: 0;
+      background: linear-gradient(to right, #e0f7fa, #e1bee7);
       padding: 20px;
-      color: #333;
+      color: #4a0072;
     }
     h1 {
       text-align: center;
-      color: #4a148c;
+      margin-bottom: 20px;
     }
-    .rank-card {
-      background: white;
+    .rank-box {
+      background: #fff;
       border-radius: 12px;
       padding: 20px;
-      margin: 15px auto;
-      max-width: 500px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      max-width: 700px;
+      margin: auto;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
-    .rank-card h2 {
-      margin: 0;
-      color: #1a237e;
+    table {
+      width: 100%;
+      border-collapse: collapse;
     }
-    .rank-card p {
-      margin: 8px 0;
+    th, td {
+      text-align: left;
+      padding: 12px;
+      border-bottom: 1px solid #ddd;
+    }
+    th {
+      background-color: #ce93d8;
+      color: white;
     }
   </style>
 </head>
 <body>
 
-  <h1>BRHELPDESK Rank System</h1>
+  <h1>BRHELPDESK Ranks</h1>
 
-  <div class="rank-card">
-    <h2>1. Foreman</h2>
-    <p>Requirement: 5 Referrals completed</p>
-    <p>Matching Income: ₹50 per pair</p>
-    <p>Daily Limit: ₹500</p>
+  <div class="rank-box">
+    <table>
+      <tr>
+        <th>Rank</th>
+        <th>Requirement</th>
+        <th>Benefit</th>
+      </tr>
+      <tr>
+        <td>Foreman</td>
+        <td>Refer 5 members using all apps</td>
+        <td>ID activation, ₹50/match</td>
+      </tr>
+      <tr>
+        <td>Supervisor</td>
+        <td>10 Active Referrals</td>
+        <td>₹100 bonus + badge</td>
+      </tr>
+      <tr>
+        <td>Manager</td>
+        <td>25 Active Referrals</td>
+        <td>₹300 bonus</td>
+      </tr>
+      <tr>
+        <td>Senior Manager</td>
+        <td>50 Active Referrals</td>
+        <td>₹500 bonus</td>
+      </tr>
+      <tr>
+        <td>Director</td>
+        <td>100 Active Referrals</td>
+        <td>₹1000 + Featured</td>
+      </tr>
+    </table>
   </div>
 
-  <div class="rank-card">
-    <h2>2. Supervisor</h2>
-    <p>Requirement: ₹1000 Top-up</p>
-    <p>Matching Income: ₹100 per pair</p>
-    <p>Daily Limit: ₹1000</p>
-  </div>
-
-  <div class="rank-card">
-    <h2>3. Team Leader</h2>
-    <p>Requirement: ₹2000 Top-up</p>
-    <p>Matching Income: ₹200 per pair</p>
-    <p>Daily Limit: ₹2000</p>
-  </div>
-
-  <div class="rank-card">
-    <h2>4. Manager</h2>
-    <p>Requirement: ₹4000 Top-up</p>
-    <p>Matching Income: ₹400 per pair</p>
-    <p>Daily Limit: ₹4000</p>
-  </div>
-
-  <div class="rank-card">
-    <h2>5. Senior Manager</h2>
-    <p>Requirement: ₹6000 Top-up</p>
-    <p>Matching Income: ₹600 per pair</p>
-    <p>Daily Limit: ₹6000</p>
-  </div>
-
-  <p style="text-align:center; margin-top: 40px;">Powered by ChatGPT | BRHELPDESK</p>
+  <p style="text-align:center; margin-top: 30px;">Powered by ChatGPT | BRHELPDESK</p>
 
 </body>
 </html>
