@@ -1,0 +1,52 @@
+!DOCTYPE html>
+<html lang="ml">
+<head>
+  <meta charset="UTF-8">
+  <title>User Profile – BRHELPDESK</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: Arial, sans-serif; background: #f0f4c3; padding: 20px; }
+    .profile { max-width: 400px; margin: auto; background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    h1 { text-align: center; color: #33691e; }
+    .info { margin: 10px 0; }
+    .info label { font-weight: bold; display: block; }
+    .downlines { margin-top: 20px; }
+    .downlines li { background: #e8f5e9; padding: 8px; margin: 5px 0; border-radius: 5px; }
+    a { display: block; text-align: center; margin-top: 20px; color: #33691e; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+  <div class="profile">
+    <h1>User Profile</h1>
+    <div class="info">
+      <label>Name:</label>
+      <span id="userName">User123</span>
+    </div>
+    <div class="info">
+      <label>Email:</label>
+      <span id="userEmail">user@example.com</span>
+    </div>
+    <div class="info">
+      <label>Rank:</label>
+      <span id="userRank">Foreman</span>
+    </div>
+    <div class="info">
+      <label>Main Wallet:</label>
+      <span id="userWallet">₹825</span>
+    </div>
+
+    <div class="downlines">
+      <label>Your Downlines:</label>
+      <ul>
+        <li>UserA (Left)</li>
+        <li>UserB (Right)</li>
+        <li>UserC (Left)</li>
+      </ul>
+    </div>
+
+    <a href="dashboard.html">Back to Dashboard</a>
+  </div>
+
+</body>
+</html>
